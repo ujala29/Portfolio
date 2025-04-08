@@ -36,48 +36,54 @@ const Portfolio = () => {
       title: 'Portfolio Website',
       description: 'Personal portfolio website built with React and Tailwind CSS',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop',
-      link: 'https://github.com/ujala29'
+      link: 'https://github.com/ujala29/portfolio'
     },
     {
-      title: 'E-commerce Platform',
-      description: 'Full-stack e-commerce platform with React, Node.js and MongoDB',
+      title: 'Virtual Keyboard with Hand Gesture Recognition',
+      description: 'An interactive virtual keyboard using OpenCV, MediaPipe, and computer vision, enabling text input through hand gestures for accessibility and ease of use.',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop',
-      link: 'https://github.com/ujala29'
+      link: 'https://github.com/ujala29/Virtual-keyboard'
+    },
+    { title: 'Netflix Clone',
+      description: 'A responsive Netflix Clone frontend built using HTML and CSS, featuring an intuitive UI and movie browsing experience.',
+      image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=300&fit=crop',
+      link: 'https://github.com/ujala29/netflixclonebyaanya'
     },
     {
-      title: 'Algorithm Visualizer',
-      description: 'Interactive tool to visualize various algorithms and data structures',
+      title: 'Movie Recommendation System',
+      description: 'An intelligent movie recommendation system built using machine learning in Python. It analyzes user preferences and suggests relevant movies.',
       image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=300&fit=crop',
-      link: 'https://github.com/ujala29'
+      link: 'https://github.com/ujala29/Movie-Recommender-using-ML'
     }
+    
   ];
 
   const achievements = [
     {
-      title: 'Runner-up in HackMOL 6.0',
+      title: 'Runner-up in HackMOL 5.0',
       description: 'Secured second place in HackMOL 6.0 hackathon with an innovative project on sustainable energy solutions.',
-      date: 'March 2023',
-      link: 'https://hackmol.tech'
+      date: 'March 2024',
+      link: 'https://github.com/ujala29/krishi_frontend'
     },
     {
       title: 'Participated in Inter-IIT Fashion Show',
       description: 'Represented my college in the Inter-IIT cultural meet fashion show, showcasing artistic creativity and teamwork.',
-      date: 'February 2023'
+      date: 'February 2024'
     },
     {
       title: 'LeetCode 250+ Questions Solved',
       description: 'Solved over 250 coding challenges on LeetCode, demonstrating strong problem-solving and algorithm skills.',
-      link: 'https://leetcode.com/ujala29'
+      link: 'https://leetcode.com/u/ujala_gupta/'
     },
     {
       title: 'GeeksforGeeks 150+ Questions Solved',
       description: 'Completed 150+ programming problems on GeeksforGeeks across various topics including DSA, competitive programming, and more.',
-      link: 'https://auth.geeksforgeeks.org/user/ujala29'
+      link: 'https://www.geeksforgeeks.org/user/ujalagiszc/'
     }
   ];
 
   const skills = [
-    'React', 'TypeScript', 'Node.js', 'Python', 'SQL', 'Git',
+    'React', 'Machine learning', 'Node.js', 'Python', 'SQL', 'Git',
     'JavaScript', 'HTML/CSS', 'MongoDB', 'Express', 'C++', 'Java',
     'DSA', 'Problem Solving', 'Communication'
   ];
@@ -144,7 +150,7 @@ const Portfolio = () => {
         <section className="text-center mb-16 section-fade-in">
           <div className="relative inline-block">
             <img 
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop" 
+              src="pic1.jpg" // Replace with your image URL
               alt="Ujala Gupta"
               className={cn(
                 "w-32 h-32 rounded-full mx-auto mb-4 object-cover transition-all duration-300",
@@ -181,13 +187,13 @@ const Portfolio = () => {
               label="GitHub"
             />
             <SocialIcon 
-              href="https://leetcode.com/ujala29/" 
+              href="https://leetcode.com/u/ujala_gupta/" 
               icon={<Code size={20} />}
               darkMode={darkMode}
               label="LeetCode"
             />
             <SocialIcon 
-              href="/resume.pdf" 
+              href="https://drive.google.com/file/d/1u29nSKlAXj6i3dSO35al6rAtBRUmfdVB/view?usp=drivesdk" 
               icon={<FileText size={20} />}
               darkMode={darkMode}
               label="Resume"
@@ -228,7 +234,7 @@ const Portfolio = () => {
               "text-lg leading-relaxed mt-4",
               darkMode ? 'text-gray-300' : 'text-gray-600'
             )}>
-              I have solved over 250 problems on LeetCode and 150 problems on GeeksforGeeks, demonstrating 
+              I have solved over 250+ problems on LeetCode and 150+ problems on GeeksforGeeks, demonstrating 
               my commitment to continuously improving my programming skills. I enjoy building full-stack applications
               and I'm always eager to learn new technologies and frameworks.
             </p>
