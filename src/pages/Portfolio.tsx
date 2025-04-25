@@ -33,22 +33,25 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: 'Portfolio Website',
-      description: 'Personal portfolio website built with React and Tailwind CSS',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop',
-      link: 'https://github.com/ujala29/portfolio'
-    },
+      title: 'Netflix Clone',
+      description: 'A Netflix-like streaming platform built with the MERN stack, featuring authentication, dynamic listings, and responsive design.',
+      image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop',
+      link: 'https://github.com/ujala29/Netflix-mern'
+    }
+,    
     {
       title: 'Virtual Keyboard with Hand Gesture Recognition',
       description: 'An interactive virtual keyboard using OpenCV, MediaPipe, and computer vision, enabling text input through hand gestures for accessibility and ease of use.',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop',
       link: 'https://github.com/ujala29/Virtual-keyboard'
     },
-    { title: 'Netflix Clone',
-      description: 'A responsive Netflix Clone frontend built using HTML and CSS, featuring an intuitive UI and movie browsing experience.',
-      image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=300&fit=crop',
-      link: 'https://github.com/ujala29/netflixclonebyaanya'
-    },
+    {
+      title: 'ToDo List App',
+      description: 'A full-stack task management application built using the MERN stack, allowing users to add, update, and delete tasks in real time.',
+      image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&h=300&fit=crop',
+      link: 'https://github.com/ujala29/Todo-app'
+    }
+,    
     {
       title: 'Movie Recommendation System',
       description: 'An intelligent movie recommendation system built using machine learning in Python. It analyzes user preferences and suggests relevant movies.',
@@ -193,7 +196,7 @@ const Portfolio = () => {
               label="LeetCode"
             />
             <SocialIcon 
-              href="https://drive.google.com/file/d/1u29nSKlAXj6i3dSO35al6rAtBRUmfdVB/view?usp=drivesdk" 
+              href="https://drive.google.com/file/d/19A9P3_H_jNJO-s_FyvwF1HZhHUePDU8q/view?usp=drivesdk" 
               icon={<FileText size={20} />}
               darkMode={darkMode}
               label="Resume"
